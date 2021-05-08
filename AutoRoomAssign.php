@@ -72,7 +72,7 @@ class AutoRoomAssign {
         }
 
         array_push($complete_array, $tmp_assign);
-    } while (count($this->humanList) - 1 > 0);
+    } while (count($this->humanList) > 0);
 
 
     return $complete_array;
